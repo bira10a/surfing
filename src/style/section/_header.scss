@@ -1,5 +1,12 @@
 .header {
-    &__link {
-        color: pink;
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 30px;
     }
 }
