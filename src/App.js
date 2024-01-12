@@ -3,11 +3,17 @@
 
 import './style/index.scss';
 
-import Header from './components/Header/Header';
+import Header from './components/Header';
+import Promo from './components/Promo';
 
 const App = () => {
   return(
+    <>
     <Header />
+    <main>
+      <Promo />
+    </main>
+    </>
   )
 };
 
